@@ -38,10 +38,12 @@
 
 ## 参考生图效果展示
 
-推荐使用 **Krea-2 模型** 结合 **[ComfyUI-Krea2-StyleTransfer](https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer)** 插件来生成（感谢作者开源这么厉害的参考图插件）。
+推荐使用 **Krea-2 模型** 结合 **[ComfyUI-Krea2-StyleTransfer](https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer)** 插件来生成（这是一款针对Krea2模型的优秀参考图插件，感谢作者的开源！）。
 
 ![输出示例 1](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/1.png)
+
 ![输出示例 2](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/2.png)
+
 ![输出示例 3](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/3.png)
 
 ---
