@@ -30,20 +30,6 @@
 
 ## 工作流
 
-### 基本工作流
-
-![基本工作流](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/basic_workflow.jpg)
-
-典型使用流程：
-
-1. 在工作流画布中添加 **FY_Style** 节点
-2. 打开节点内的画廊面板，选择一张风格参考图
-3. 可选：在 `positive_prompt` / `negative_prompt` 输入框中添加你自己的提示词
-4. 节点会自动将参考图提示词与你的自定义文本组合（参考图提示词在前，逗号分隔）
-5. 将输出的 `IMAGE` 和组合后的提示词接入你的图像生成管线
-
-### 插件工作流
-
 ![节点展示](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/basic_workflow.jpg)
 
 ![参考图图像生成](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/reference_image_generation.jpg)
