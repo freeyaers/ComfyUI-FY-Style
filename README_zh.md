@@ -30,9 +30,9 @@
 
 ## 工作流节点
 
-![节点展示](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/fy_style.png)
+![节点展示](workflows/fy_style.jpg)
 
-![节点展示](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/basic_workflow.png)
+![节点展示](workflows/basic_workflow.jpg)
 
 ---
 
@@ -42,19 +42,19 @@
 
 ### 左为原图，右为生成图
 
-![输出示例 1](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/1.png)
+![输出示例 1](workflows/output/1.jpg)
 
-![输出示例 2](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/2.png)
+![输出示例 2](workflows/output/2.jpg)
 
-![输出示例 3](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/3.png)
+![输出示例 3](workflows/output/3.jpg)
 
-![输出示例 4](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/4.png)
+![输出示例 4](workflows/output/4.jpg)
 
-![输出示例 5](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/5.png)
+![输出示例 5](workflows/output/5.jpg)
 
-![输出示例 6](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/6.png)
+![输出示例 6](workflows/output/6.jpg)
 
-![输出示例 7](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/7.png)
+![输出示例 7](workflows/output/7.jpg)
 
 ---
 
