@@ -56,6 +56,8 @@
 
 ![输出示例 7](workflows/output/7.jpg)
 
+![输出示例 8](workflows/output/8.jpg)
+
 ---
 
 ## 文件说明
@@ -68,7 +70,7 @@
 | `js/main.js` | ComfyUI 前端扩展 — 嵌入画廊 iframe，处理跨帧消息通信 |
 | `lang/` | 内含中英文语言包（UI 字符串 + 分类翻译） |
 | `img/` | 风格参考图目录（命名规范：`[_tag]N-名称(提示词){URL}.ext`） |
-| `img/fal-Krea-2-Style-LoRAs-Image.zip` | 图集压缩包（首次启动节点时会自动解压） |
+| `img/fal-Krea-2-Style-LoRAs-image.tar.gz` | 图集压缩包（首次启动节点时会自动解压） |
 | `workflows/` | 示例 ComfyUI 工作流 |
 | `index.html` | 生成的画廊页面（由 `update.py` 自动生成） |
 | `update.bat` | Windows 批处理脚本，运行 `update.py` 刷新画廊 |
