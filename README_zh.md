@@ -28,23 +28,33 @@
 
 ---
 
-## 工作流
+## 工作流节点
 
-![节点展示](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/basic_workflow.jpg)
+![节点展示](workflows/fy_style.png)
 
-![参考图图像生成](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/reference_image_generation.jpg)
+![节点展示](workflows/basic_workflow.png)
 
 ---
 
 ## 参考生图效果展示
 
-推荐使用 **Krea-2 模型** 结合 **[ComfyUI-Krea2-StyleTransfer](https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer)** 插件来生成（这是一款针对Krea2模型的优秀参考图插件，感谢作者的开源！）。
+下图使用了 **Krea-2 模型** 结合 **[ComfyUI-Krea2-StyleTransfer](https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer)** 插件来生成（这是一款针对Krea2模型的优秀参考图插件，感谢作者的开源！）。
 
-![输出示例 1](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/1.png)
+### 左为原图，右为生成图
 
-![输出示例 2](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/2.png)
+![输出示例 1](workflows/output/1.png)
 
-![输出示例 3](https://github.com/freeyaers/ComfyUI-FY-Style/blob/main/workflows/output/3.png)
+![输出示例 2](workflows/output/2.png)
+
+![输出示例 3](workflows/output/3.png)
+
+![输出示例 4](workflows/output/4.png)
+
+![输出示例 5](workflows/output/5.png)
+
+![输出示例 6](workflows/output/6.png)
+
+![输出示例 7](workflows/output/7.png)
 
 ---
 
@@ -58,9 +68,10 @@
 | `js/main.js` | ComfyUI 前端扩展 — 嵌入画廊 iframe，处理跨帧消息通信 |
 | `lang/` | 内含中英文语言包（UI 字符串 + 分类翻译） |
 | `img/` | 风格参考图目录（命名规范：`[_tag]N-名称(提示词){URL}.ext`） |
+| `img/fal-Krea-2-Style-LoRAs-Image.zip` | 图集压缩包（首次启动节点时会自动解压） |
 | `workflows/` | 示例 ComfyUI 工作流 |
 | `index.html` | 生成的画廊页面（由 `update.py` 自动生成） |
-| `更新图像风格 (Update image style).bat` | Windows 批处理脚本，运行 `update.py` 刷新画廊 |
+| `update.bat` | Windows 批处理脚本，运行 `update.py` 刷新画廊 |
 
 ---
 
@@ -85,9 +96,7 @@
 
 ---
 
-## 推荐搭配
-
-为获得最佳效果，推荐以下方案：
+## 风格图片生图方案参考
 
 - **Krea-2 模型** — [krea2_turbo_bf16.safetensors](https://modelscope.cn/models/krea/Krea-2-Turbo)
 - **[ComfyUI-Krea2-StyleTransfer](https://github.com/jieg9341-lab/ComfyUI-Krea2-StyleTransfer)** — 参考图风格迁移插件，由 [jieg9341-lab](https://github.com/jieg9341-lab) 开源
