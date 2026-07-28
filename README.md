@@ -8,7 +8,7 @@
 
 ## Introduction
 
-**FY Style** is a ComfyUI custom node plugin that provides a built-in style reference image gallery. Each reference image comes with ready-to-use simplified prompts.
+**FY Style** It is a ComfyUI localized atlas plugin that provides a built-in gallery of style reference images. Each reference image is accompanied by a simplified prompt word that can be used directly.
 
 - **1000+ style reference images**, curated from the open-source project [fal-Krea-2-Style-LoRA](https://huggingface.co/fal/krea-2-style-lora)
 - **Flexible browsing and search**, supporting tag filtering and full-text search
